@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import Share from '../models/Share.js';
+import Share from '../models/share.js';
 
 // POST /api/share
 export const createShare = async (req, res) => {
